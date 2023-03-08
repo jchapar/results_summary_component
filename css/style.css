@@ -1,0 +1,90 @@
+:root {
+  /* --primary-light-red: hsl(0, 100%, 67%)
+  --primary-rangey-yellow: hsl(39, 100%, 56%)
+  --primary-green-teal: hsl(166, 100%, 37%)
+  --primary-cobalt-blue: hsl(234, 85%, 45%)
+
+  --gradient-light-slate-blue: hsl(252, 100%, 67%)
+  --gradient-light-royal-blue: hsl(241, 81%, 54%)
+  --gradient-violet-blue: hsla(256, 72%, 46%, 1)
+  --gradient-persian-blue: hsla(241, 72%, 46%, 0)
+
+  --neutral-white: hsl(0, 0%, 100%)
+  --neutral-pale-blue: hsl(221, 100%, 96%)
+  --neutral-light-lavender: hsl(241, 100%, 89%)
+  --neutral-dark-gray-blue: hsl(224, 30%, 27%) */
+}
+
+/* General Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Card */
+.card-header {
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  height: 35.6rem;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  padding: 2rem 0;
+}
+
+.card-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header-content .card-header-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #cac9ff;
+  margin-bottom: 2rem;
+}
+
+.results-container {
+  background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  padding: 4rem;
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.results-container .result {
+  font-size: 5.6rem;
+  color: white;
+}
+
+.results-container small {
+  font-size: 1.6rem;
+  color: #cac9ff;
+}
+
+.card-header-content h2 {
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.card-header-content p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  max-width: 26rem;
+  text-align: center;
+  color: #cac9ff;
+  line-height: 20.85px;
+}
