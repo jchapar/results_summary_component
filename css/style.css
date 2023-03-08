@@ -36,6 +36,7 @@ html {
   border-bottom-left-radius: 4rem;
   border-bottom-right-radius: 4rem;
   padding: 2rem 0;
+  margin-bottom: 3rem;
 }
 
 .card-header-content {
@@ -87,4 +88,79 @@ html {
   text-align: center;
   color: #cac9ff;
   line-height: 20.85px;
+}
+
+/* Card Body */
+.card-body {
+  padding: 3rem;
+}
+
+.card-body .card-body-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.categories .category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.categories .category .category-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.categories .category .category-title img {
+  margin-right: 1rem;
+}
+
+.categories .category .category-stat {
+  color: #303b59;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.categories .category .category-stat p span {
+  opacity: 0.5;
+}
+
+.category.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+}
+.category.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+.category.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+}
+.category.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+
+.card-body button {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 10rem;
+  outline: none;
+  border: none;
+  background: #303b59;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card-body button:hover {
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
