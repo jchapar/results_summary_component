@@ -164,3 +164,79 @@ html {
 .card-body button:hover {
   background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
+
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #ecf2ff;
+  }
+
+  /* .container {
+    max-width: 73.6rem;
+    margin: 0 auto;
+  } */
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 51.2rem;
+    width: 73.6rem;
+    border-radius: 4rem;
+    background-color: #fff;
+  }
+
+  .card-header {
+    height: 100%;
+    width: 36.8rem;
+    border-radius: 4rem;
+  }
+
+  .card-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-header-content .card-header-title {
+    font-size: 2.4rem;
+  }
+
+  .results-container {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .results-container .result {
+    font-size: 7.2rem;
+  }
+
+  .results-container small {
+    font-size: 1.8rem;
+  }
+
+  .card-header-content h2 {
+    font-size: 3.2rem;
+  }
+
+  .card-header-content p {
+    font-size: 1.8rem;
+  }
+
+  .card-body {
+    width: 28.8rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+  }
+
+  .card-body .categories {
+    width: 288px;
+  }
+
+  .card-body button {
+    width: 288px;
+  }
+}
