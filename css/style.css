@@ -92,7 +92,7 @@ html {
 
 /* Card Body */
 .card-body {
-  padding: 3rem;
+  padding: 0 3rem 3rem 3rem;
 }
 
 .card-body .card-body-title {
